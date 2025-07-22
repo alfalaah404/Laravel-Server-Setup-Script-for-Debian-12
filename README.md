@@ -35,7 +35,7 @@ This repository contains a Bash script to automatically configure a **production
 1. **Clone this repository**:
 
    ```bash
-   git clone https://github.com/yourusername/laravel-server-setup.git
+   git clone https://github.com/alfalaah404/Laravel-Server-Setup-Script-for-Debian-12.git
    cd laravel-server-setup
    ```
 
