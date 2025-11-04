@@ -98,6 +98,17 @@ After running the script:
 After installation, access **pgAdmin** via `http://your-server-ip/pgadmin4`  
 Credentials you can specify when running the script.
 
+## Konfigurasi postgresql ke pgadmin4
+
+1. Jalankan Command berikut:
+
+   ```bash
+   su - postgres
+   psql -c "alter user postgres with password 'You5trongPassword'"
+   ```
+
+2. Setelah itu login ke pgadmin dan tambahkan server baru menggunakan user postgres dan password tersebut
+
 ---
 
 ## ⚙️ PHP Settings Tuned for Production
